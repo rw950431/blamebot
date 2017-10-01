@@ -6,7 +6,7 @@ application = Flask(__name__)
 @application.route("/", methods=['GET', 'POST'])
 def hello():
     token=request.args.get('token', 'not found')
-    return "Hello World!"
+    return "Hello World!- {}".format(token)
 
 @application.route("/list/<password>")
 def show_list(password):

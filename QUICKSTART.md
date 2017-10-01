@@ -16,6 +16,6 @@ http://blog.lucywyman.me/deploy-private-git-repo-to-openshift.html#add-key-as-a-
 
 generated openshift rsa key using git-bash ssh-keygen command line.  Uploaded .pub to gitlab, uploaded private keyfile to blamebot project on openshift.  Still doesnt work.
 
-
+Eventually gave up and moved to public repo https://github.com/rw950431/blamebot
 
 https://blog.openshift.com/getting-started-python/
